@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		3BE0FAB72280D76C00F70F5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0FAB62280D76C00F70F5B /* AppDelegate.swift */; };
-		3BE0FAB92280D76C00F70F5B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0FAB82280D76C00F70F5B /* FirstViewController.swift */; };
-		3BE0FABB2280D76C00F70F5B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0FABA2280D76C00F70F5B /* SecondViewController.swift */; };
 		3BE0FABE2280D76C00F70F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE0FABC2280D76C00F70F5B /* Main.storyboard */; };
 		3BE0FAC02280D77000F70F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE0FABF2280D77000F70F5B /* Assets.xcassets */; };
 		3BE0FAC32280D77000F70F5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE0FAC12280D77000F70F5B /* LaunchScreen.storyboard */; };
+		3BE0FACF2280D84200F70F5B /* ngpo.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BE0FACE2280D84200F70F5B /* ngpo.json */; };
+		3BE0FAD12280D8D200F70F5B /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0FAD02280D8D200F70F5B /* Client.swift */; };
+		3BE0FAD52280DA9400F70F5B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0FAD42280DA9400F70F5B /* Message.swift */; };
+		3BE0FAD72280DBF200F70F5B /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0FAD62280DBF200F70F5B /* Asset.swift */; };
+		3BE0FAD92280DCF300F70F5B /* AssetValuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0FAD82280DCF300F70F5B /* AssetValuation.swift */; };
+		3BE0FADB2280E11300F70F5B /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0FADA2280E11300F70F5B /* DataFetcher.swift */; };
+		3BE0FADD228170B000F70F5B /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0FADC228170B000F70F5B /* GraphViewController.swift */; };
+		3BE0FADF2281853800F70F5B /* GraphViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0FADE2281853800F70F5B /* GraphViewModel.swift */; };
+		FDA50B3C7A618FFB37A33C13 /* Pods_WindmillTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA82A102668A3F8EDA10E4A /* Pods_WindmillTestTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AC6AB59F562112E53A78FDA /* Pods-WindmillTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindmillTestTask.release.xcconfig"; path = "Target Support Files/Pods-WindmillTestTask/Pods-WindmillTestTask.release.xcconfig"; sourceTree = "<group>"; };
 		3BE0FAB32280D76C00F70F5B /* WindmillTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindmillTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE0FAB62280D76C00F70F5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3BE0FAB82280D76C00F70F5B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3BE0FABA2280D76C00F70F5B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		3BE0FABD2280D76C00F70F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BE0FABF2280D77000F70F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BE0FAC22280D77000F70F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BE0FAC42280D77000F70F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BE0FACE2280D84200F70F5B /* ngpo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ngpo.json; sourceTree = "<group>"; };
+		3BE0FAD02280D8D200F70F5B /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		3BE0FAD42280DA9400F70F5B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		3BE0FAD62280DBF200F70F5B /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		3BE0FAD82280DCF300F70F5B /* AssetValuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetValuation.swift; sourceTree = "<group>"; };
+		3BE0FADA2280E11300F70F5B /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		3BE0FADC228170B000F70F5B /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		3BE0FADE2281853800F70F5B /* GraphViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewModel.swift; sourceTree = "<group>"; };
+		94F7CB58BB5B54CC580EF8C0 /* Pods-WindmillTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindmillTestTask.debug.xcconfig"; path = "Target Support Files/Pods-WindmillTestTask/Pods-WindmillTestTask.debug.xcconfig"; sourceTree = "<group>"; };
+		CBA82A102668A3F8EDA10E4A /* Pods_WindmillTestTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WindmillTestTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA50B3C7A618FFB37A33C13 /* Pods_WindmillTestTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EED04C950BEC4894F33B232 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBA82A102668A3F8EDA10E4A /* Pods_WindmillTestTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3BE0FAAA2280D76C00F70F5B = {
 			isa = PBXGroup;
 			children = (
 				3BE0FAB52280D76C00F70F5B /* WindmillTestTask */,
 				3BE0FAB42280D76C00F70F5B /* Products */,
+				7B8176E374DC2D78333E76D4 /* Pods */,
+				1EED04C950BEC4894F33B232 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,54 @@
 		3BE0FAB52280D76C00F70F5B /* WindmillTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				3BE0FACB2280D7E300F70F5B /* Controllers */,
+				3BE0FACD2280D7E300F70F5B /* Data */,
+				3BE0FACC2280D7E300F70F5B /* Model */,
 				3BE0FAB62280D76C00F70F5B /* AppDelegate.swift */,
-				3BE0FAB82280D76C00F70F5B /* FirstViewController.swift */,
-				3BE0FABA2280D76C00F70F5B /* SecondViewController.swift */,
 				3BE0FABC2280D76C00F70F5B /* Main.storyboard */,
 				3BE0FABF2280D77000F70F5B /* Assets.xcassets */,
 				3BE0FAC12280D77000F70F5B /* LaunchScreen.storyboard */,
 				3BE0FAC42280D77000F70F5B /* Info.plist */,
 			);
 			path = WindmillTestTask;
+			sourceTree = "<group>";
+		};
+		3BE0FACB2280D7E300F70F5B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BE0FADC228170B000F70F5B /* GraphViewController.swift */,
+				3BE0FADE2281853800F70F5B /* GraphViewModel.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3BE0FACC2280D7E300F70F5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BE0FAD02280D8D200F70F5B /* Client.swift */,
+				3BE0FAD42280DA9400F70F5B /* Message.swift */,
+				3BE0FAD62280DBF200F70F5B /* Asset.swift */,
+				3BE0FAD82280DCF300F70F5B /* AssetValuation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3BE0FACD2280D7E300F70F5B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3BE0FACE2280D84200F70F5B /* ngpo.json */,
+				3BE0FADA2280E11300F70F5B /* DataFetcher.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7B8176E374DC2D78333E76D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94F7CB58BB5B54CC580EF8C0 /* Pods-WindmillTestTask.debug.xcconfig */,
+				3AC6AB59F562112E53A78FDA /* Pods-WindmillTestTask.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BE0FAC72280D77000F70F5B /* Build configuration list for PBXNativeTarget "WindmillTestTask" */;
 			buildPhases = (
+				D5FEE28F20F63575F67C184E /* [CP] Check Pods Manifest.lock */,
 				3BE0FAAF2280D76C00F70F5B /* Sources */,
 				3BE0FAB02280D76C00F70F5B /* Frameworks */,
 				3BE0FAB12280D76C00F70F5B /* Resources */,
+				B55632494EB6335F63596E99 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BE0FAC32280D77000F70F5B /* LaunchScreen.storyboard in Resources */,
+				3BE0FACF2280D84200F70F5B /* ngpo.json in Resources */,
 				3BE0FAC02280D77000F70F5B /* Assets.xcassets in Resources */,
 				3BE0FABE2280D76C00F70F5B /* Main.storyboard in Resources */,
 			);
@@ -133,14 +202,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B55632494EB6335F63596E99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WindmillTestTask/Pods-WindmillTestTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WindmillTestTask/Pods-WindmillTestTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5FEE28F20F63575F67C184E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WindmillTestTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BE0FAAF2280D76C00F70F5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BE0FABB2280D76C00F70F5B /* SecondViewController.swift in Sources */,
+				3BE0FAD72280DBF200F70F5B /* Asset.swift in Sources */,
 				3BE0FAB72280D76C00F70F5B /* AppDelegate.swift in Sources */,
-				3BE0FAB92280D76C00F70F5B /* FirstViewController.swift in Sources */,
+				3BE0FADD228170B000F70F5B /* GraphViewController.swift in Sources */,
+				3BE0FAD92280DCF300F70F5B /* AssetValuation.swift in Sources */,
+				3BE0FAD52280DA9400F70F5B /* Message.swift in Sources */,
+				3BE0FADF2281853800F70F5B /* GraphViewModel.swift in Sources */,
+				3BE0FAD12280D8D200F70F5B /* Client.swift in Sources */,
+				3BE0FADB2280E11300F70F5B /* DataFetcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,11 +405,13 @@
 		};
 		3BE0FAC82280D77000F70F5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F7CB58BB5B54CC580EF8C0 /* Pods-WindmillTestTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6423MBW33K;
 				INFOPLIST_FILE = WindmillTestTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,11 +425,13 @@
 		};
 		3BE0FAC92280D77000F70F5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC6AB59F562112E53A78FDA /* Pods-WindmillTestTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6423MBW33K;
 				INFOPLIST_FILE = WindmillTestTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
