@@ -16,6 +16,7 @@ class GraphViewController: UIViewController {
     @IBOutlet weak var totalWealthLabelValue: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var spiner: UIActivityIndicatorView!
+    @IBOutlet weak var progressLabel: UILabel!
     
     //MARK: - Vars
     lazy var viewModel: GraphViewModel = {
@@ -73,7 +74,6 @@ class GraphViewController: UIViewController {
         let set1 = LineChartDataSet(values: yVals1, label: "Wealth")
         set1.drawFilledEnabled = true
         setupWealthSet(set1)
-        
         
         let data = LineChartData(dataSets: [set1])
         data.setValueTextColor(.blue)
@@ -146,6 +146,12 @@ class GraphViewController: UIViewController {
             }
         }
         
+        viewModel.updateProgressClosure = { [weak self] in
+            DispatchQueue.main.async {
+                self?.progressLabel.text = "\(self?.viewModel.progressValue ?? 0) %"
+            }
+        }
+        
         viewModel.updateTotalValueClosure = {[weak self] in
             DispatchQueue.main.async {
                 let numberFormatter = NumberFormatter()
@@ -154,12 +160,13 @@ class GraphViewController: UIViewController {
                 self?.totalWealthLabelValue.text = numberFormatter.string(from: NSNumber(value:self?.viewModel.currentValuaition ?? 0.00))
                 self?.totalWealthLabelValue.isHidden = false
                 self?.totalLabel.isHidden = false
+                self?.progressLabel.isHidden = true
                 self?.spiner.stopAnimating()
             }
         }
         
         // prepare data for charts
-        DispatchQueue.global(qos: .default).sync {
+        DispatchQueue.global(qos: .default).async {
             self.viewModel.fetchDataForClient()
         }
     }

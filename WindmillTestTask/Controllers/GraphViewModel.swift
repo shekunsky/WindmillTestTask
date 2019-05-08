@@ -15,7 +15,7 @@ struct ChartModel {
    
 }
 
-struct GraphViewModel {
+class GraphViewModel {
     
     //MARK: Vars
     var chartData: ChartModel = ChartModel(days:[], dates:[], wealth:[]) {
@@ -30,10 +30,17 @@ struct GraphViewModel {
         }
     }
     
+    var progressValue: Int = 0 {
+        didSet {
+            self.updateProgressClosure?()
+        }
+    }
+    
     var updateChartClosure: (()->())?
+    var updateProgressClosure: (()->())?
     var updateTotalValueClosure: (()->())?
     
-    mutating func fetchDataForClient() {
+    func fetchDataForClient() {
         let start = Date()
         if let client = fetchData()?.first {
             var startDate = client.startingDateForClient()
@@ -49,6 +56,7 @@ struct GraphViewModel {
                     weakModel.dates.append("\(month!)/\(year!)")
                     weakModel.wealth.append(client.wealthFor(date: startDate))
                     startDate = calendar.date(byAdding: .day, value: 1, to:startDate)!
+                    self.progressValue = i * 100 / numberOfDays
                 }
                 self.chartData = weakModel
                 self.currentValuaition = client.currentValuation()

@@ -25,6 +25,12 @@
                                     <constraint firstAttribute="height" constant="280" id="hje-Zr-ZLf"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 %" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="htn-sZ-OVw">
+                                <rect key="frame" x="145.5" y="193.5" width="29.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.1217893836" blue="0.69423253679999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="iLJ-V9-9mX">
                                 <rect key="frame" x="141.5" y="221.5" width="37" height="37"/>
                                 <color key="color" red="0.17088999129999999" green="0.062332334480000001" blue="0.25649174060000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -47,6 +53,8 @@
                             <constraint firstItem="loS-Gd-wUM" firstAttribute="top" secondItem="RTH-Zs-XUe" secondAttribute="top" constant="10" id="9Vn-Zh-m2X"/>
                             <constraint firstItem="gWZ-Pf-Dhq" firstAttribute="top" secondItem="azQ-6o-0NR" secondAttribute="bottom" constant="5" id="KnY-C0-JQH"/>
                             <constraint firstItem="RTH-Zs-XUe" firstAttribute="trailing" secondItem="gWZ-Pf-Dhq" secondAttribute="trailing" constant="10" id="LS0-di-Vvw"/>
+                            <constraint firstItem="htn-sZ-OVw" firstAttribute="centerX" secondItem="nom-lc-iAl" secondAttribute="centerX" id="LWl-JQ-cV1"/>
+                            <constraint firstItem="iLJ-V9-9mX" firstAttribute="top" secondItem="htn-sZ-OVw" secondAttribute="bottom" constant="7" id="Z4X-OE-SH9"/>
                             <constraint firstItem="iLJ-V9-9mX" firstAttribute="centerY" secondItem="nom-lc-iAl" secondAttribute="centerY" id="al9-ft-niI"/>
                             <constraint firstItem="iLJ-V9-9mX" firstAttribute="centerX" secondItem="nom-lc-iAl" secondAttribute="centerX" id="kCx-GC-bpy"/>
                             <constraint firstItem="gWZ-Pf-Dhq" firstAttribute="leading" secondItem="RTH-Zs-XUe" secondAttribute="leading" constant="10" id="oDm-lJ-Qj3"/>
@@ -57,6 +65,7 @@
                     </view>
                     <connections>
                         <outlet property="chartView" destination="gWZ-Pf-Dhq" id="Crt-9F-hpF"/>
+                        <outlet property="progressLabel" destination="htn-sZ-OVw" id="S6Q-Wv-pDG"/>
                         <outlet property="spiner" destination="iLJ-V9-9mX" id="CRI-61-p83"/>
                         <outlet property="totalLabel" destination="loS-Gd-wUM" id="pnd-Gs-MgW"/>
                         <outlet property="totalWealthLabelValue" destination="azQ-6o-0NR" id="NMc-Qx-NNn"/>
