@@ -40,9 +40,8 @@ struct Client: Decodable {
     
     func wealthFor(date: Date) -> Double {
         var summa = 0.00
-        let calendar = NSCalendar.current
         for asset in assets ?? [] {
-            if let assetValueForDate = asset.historicalValuations?.filter({ calendar.compare($0.valuationDate!, to: date, toGranularity: .day) == .orderedSame }) {
+            if let assetValueForDate = asset.historicalValuations?.filter({ $0.valuationDate! == date }) {
                 summa +=  assetValueForDate.first?.valuationInCurrency ?? 0.00
             }
         }

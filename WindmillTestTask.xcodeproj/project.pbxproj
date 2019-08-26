@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B360AC12313FCE30079AD1C /* WindmillTestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B360AC02313FCE30079AD1C /* WindmillTestTaskTests.swift */; };
+		3B360ACB231405FF0079AD1C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3B360ACA231405FF0079AD1C /* README.md */; };
 		3BE0FAB72280D76C00F70F5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0FAB62280D76C00F70F5B /* AppDelegate.swift */; };
 		3BE0FABE2280D76C00F70F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE0FABC2280D76C00F70F5B /* Main.storyboard */; };
 		3BE0FAC02280D77000F70F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE0FABF2280D77000F70F5B /* Assets.xcassets */; };
@@ -22,8 +24,22 @@
 		FDA50B3C7A618FFB37A33C13 /* Pods_WindmillTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA82A102668A3F8EDA10E4A /* Pods_WindmillTestTask.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3B360AC32313FCE30079AD1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BE0FAAB2280D76C00F70F5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BE0FAB22280D76C00F70F5B;
+			remoteInfo = WindmillTestTask;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		3AC6AB59F562112E53A78FDA /* Pods-WindmillTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindmillTestTask.release.xcconfig"; path = "Target Support Files/Pods-WindmillTestTask/Pods-WindmillTestTask.release.xcconfig"; sourceTree = "<group>"; };
+		3B360ABE2313FCE20079AD1C /* WindmillTestTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindmillTestTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B360AC02313FCE30079AD1C /* WindmillTestTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindmillTestTaskTests.swift; sourceTree = "<group>"; };
+		3B360AC22313FCE30079AD1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B360ACA231405FF0079AD1C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3BE0FAB32280D76C00F70F5B /* WindmillTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindmillTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE0FAB62280D76C00F70F5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BE0FABD2280D76C00F70F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,6 +59,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3B360ABB2313FCE20079AD1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3BE0FAB02280D76C00F70F5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,10 +85,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3B360ABF2313FCE30079AD1C /* WindmillTestTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B360AC02313FCE30079AD1C /* WindmillTestTaskTests.swift */,
+				3B360AC22313FCE30079AD1C /* Info.plist */,
+			);
+			path = WindmillTestTaskTests;
+			sourceTree = "<group>";
+		};
 		3BE0FAAA2280D76C00F70F5B = {
 			isa = PBXGroup;
 			children = (
+				3B360ACA231405FF0079AD1C /* README.md */,
 				3BE0FAB52280D76C00F70F5B /* WindmillTestTask */,
+				3B360ABF2313FCE30079AD1C /* WindmillTestTaskTests */,
 				3BE0FAB42280D76C00F70F5B /* Products */,
 				7B8176E374DC2D78333E76D4 /* Pods */,
 				1EED04C950BEC4894F33B232 /* Frameworks */,
@@ -76,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				3BE0FAB32280D76C00F70F5B /* WindmillTestTask.app */,
+				3B360ABE2313FCE20079AD1C /* WindmillTestTaskTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,6 +171,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3B360ABD2313FCE20079AD1C /* WindmillTestTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B360AC52313FCE30079AD1C /* Build configuration list for PBXNativeTarget "WindmillTestTaskTests" */;
+			buildPhases = (
+				3B360ABA2313FCE20079AD1C /* Sources */,
+				3B360ABB2313FCE20079AD1C /* Frameworks */,
+				3B360ABC2313FCE20079AD1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B360AC42313FCE30079AD1C /* PBXTargetDependency */,
+			);
+			name = WindmillTestTaskTests;
+			productName = WindmillTestTaskTests;
+			productReference = 3B360ABE2313FCE20079AD1C /* WindmillTestTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		3BE0FAB22280D76C00F70F5B /* WindmillTestTask */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BE0FAC72280D77000F70F5B /* Build configuration list for PBXNativeTarget "WindmillTestTask" */;
@@ -161,10 +214,14 @@
 		3BE0FAAB2280D76C00F70F5B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
+				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Alex Shekunsky";
 				TargetAttributes = {
+					3B360ABD2313FCE20079AD1C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 3BE0FAB22280D76C00F70F5B;
+					};
 					3BE0FAB22280D76C00F70F5B = {
 						CreatedOnToolsVersion = 10.2;
 					};
@@ -184,17 +241,26 @@
 			projectRoot = "";
 			targets = (
 				3BE0FAB22280D76C00F70F5B /* WindmillTestTask */,
+				3B360ABD2313FCE20079AD1C /* WindmillTestTaskTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3B360ABC2313FCE20079AD1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3BE0FAB12280D76C00F70F5B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3BE0FAC32280D77000F70F5B /* LaunchScreen.storyboard in Resources */,
 				3BE0FACF2280D84200F70F5B /* ngpo.json in Resources */,
+				3B360ACB231405FF0079AD1C /* README.md in Resources */,
 				3BE0FAC02280D77000F70F5B /* Assets.xcassets in Resources */,
 				3BE0FABE2280D76C00F70F5B /* Main.storyboard in Resources */,
 			);
@@ -250,6 +316,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3B360ABA2313FCE20079AD1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B360AC12313FCE30079AD1C /* WindmillTestTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3BE0FAAF2280D76C00F70F5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,6 +340,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B360AC42313FCE30079AD1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BE0FAB22280D76C00F70F5B /* WindmillTestTask */;
+			targetProxy = 3B360AC32313FCE30079AD1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3BE0FABC2280D76C00F70F5B /* Main.storyboard */ = {
@@ -287,6 +369,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3B360AC62313FCE30079AD1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6423MBW33K;
+				INFOPLIST_FILE = WindmillTestTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shekunsky.WindmillTestTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WindmillTestTask.app/WindmillTestTask";
+			};
+			name = Debug;
+		};
+		3B360AC72313FCE30079AD1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6423MBW33K;
+				INFOPLIST_FILE = WindmillTestTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shekunsky.WindmillTestTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WindmillTestTask.app/WindmillTestTask";
+			};
+			name = Release;
+		};
 		3BE0FAC52280D77000F70F5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -446,6 +570,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3B360AC52313FCE30079AD1C /* Build configuration list for PBXNativeTarget "WindmillTestTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B360AC62313FCE30079AD1C /* Debug */,
+				3B360AC72313FCE30079AD1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3BE0FAAE2280D76C00F70F5B /* Build configuration list for PBXProject "WindmillTestTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

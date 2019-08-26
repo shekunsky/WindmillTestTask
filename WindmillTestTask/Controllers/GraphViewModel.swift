@@ -55,7 +55,7 @@ class GraphViewModel {
                     weakModel.days.append(i-1)
                     weakModel.dates.append("\(month!)/\(year!)")
                     weakModel.wealth.append(client.wealthFor(date: startDate))
-                    startDate = calendar.date(byAdding: .day, value: 1, to:startDate)!
+                    startDate = calendar.date(byAdding: .hour, value: 24, to:startDate)!
                     self.progressValue = i * 100 / numberOfDays
                 }
                 self.chartData = weakModel
