@@ -1,8 +1,8 @@
-rules:
-    default:
-    protection:
-            required_status_checks:
-    context:
-            - continuous-integration/jenkins/pr
-            required_pull_request_reviews:
-            required_approving_review_count: 1
+pull_request_rules:
+- name: automatic merge on CI success and review
+conditions:
+- status-success=continuous-integration/travis-ci/pr
+- "#approved-reviews-by>=2"
+actions:
+merge:
+method: merge
