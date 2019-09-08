@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3B360AC12313FCE30079AD1C /* WindmillTestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B360AC02313FCE30079AD1C /* WindmillTestTaskTests.swift */; };
 		3B360ACB231405FF0079AD1C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3B360ACA231405FF0079AD1C /* README.md */; };
+		3BD9280023255A18002D1459 /* .mergify.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3BD927FF23255A18002D1459 /* .mergify.yml */; };
 		3BE0FAB72280D76C00F70F5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0FAB62280D76C00F70F5B /* AppDelegate.swift */; };
 		3BE0FABE2280D76C00F70F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE0FABC2280D76C00F70F5B /* Main.storyboard */; };
 		3BE0FAC02280D77000F70F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE0FABF2280D77000F70F5B /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		3B360AC02313FCE30079AD1C /* WindmillTestTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindmillTestTaskTests.swift; sourceTree = "<group>"; };
 		3B360AC22313FCE30079AD1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B360ACA231405FF0079AD1C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3BD927FF23255A18002D1459 /* .mergify.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .mergify.yml; sourceTree = "<group>"; };
 		3BE0FAB32280D76C00F70F5B /* WindmillTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindmillTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE0FAB62280D76C00F70F5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BE0FABD2280D76C00F70F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		3BE0FAAA2280D76C00F70F5B = {
 			isa = PBXGroup;
 			children = (
+				3BD927FF23255A18002D1459 /* .mergify.yml */,
 				3B360ACA231405FF0079AD1C /* README.md */,
 				3BE0FAB52280D76C00F70F5B /* WindmillTestTask */,
 				3B360ABF2313FCE30079AD1C /* WindmillTestTaskTests */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BE0FAC32280D77000F70F5B /* LaunchScreen.storyboard in Resources */,
+				3BD9280023255A18002D1459 /* .mergify.yml in Resources */,
 				3BE0FACF2280D84200F70F5B /* ngpo.json in Resources */,
 				3B360ACB231405FF0079AD1C /* README.md in Resources */,
 				3BE0FAC02280D77000F70F5B /* Assets.xcassets in Resources */,

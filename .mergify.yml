@@ -2,7 +2,7 @@ pull_request_rules:
   - name: automatic merge when CI passes and 2 reviews
     conditions:
       - "#approved-reviews-by>=2"
-      - status-success=Travis CI - Pull Request
+      - status-success=Jenkins CI - Pull Request
       - base=master
     actions:
       merge:
