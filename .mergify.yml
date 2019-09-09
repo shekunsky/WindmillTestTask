@@ -8,5 +8,3 @@ pull_request_rules:
             method: merge
             strict: true
 
-
-
