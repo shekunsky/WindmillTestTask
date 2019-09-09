@@ -1,7 +1,7 @@
 pull_request_rules:
 - name: automatic merge on CI success and review
   conditions:
-        - status-success=Jenkins Tests
+        - status-success=WindmillTestTask
         - base=master
   actions:
         merge:
