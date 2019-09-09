@@ -6,4 +6,4 @@ conditions:
 actions:
     merge:
         method: merge
-        strict: true
+        strict:  true
