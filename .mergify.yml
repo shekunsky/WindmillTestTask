@@ -7,3 +7,4 @@ actions:
 merge:
 method: merge
 strict: true
+
