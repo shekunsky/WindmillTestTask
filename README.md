@@ -19,4 +19,4 @@ Unit tests placed in **<WindmillTestTaskTests.swift>** file
 For open project you need Xcode version 10 or higher. 
 1. Open **<WindmillTestTask.xcworkspace>** file in Xcode.
 2. Select device (or simulator) on which you want to instal the App.
-3. Build and Run!
+3. Build and Run.
