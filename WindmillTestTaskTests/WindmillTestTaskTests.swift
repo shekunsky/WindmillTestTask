@@ -22,7 +22,7 @@ class WindmillTestTaskTests: XCTestCase {
     }
 
     func test_GivenMockData_Result() {
-        XCTAssertEqual(sut.viewModel.chartData.days.count, 95)
+        XCTAssertEqual(sut.viewModel.chartData.days.count, 953)
         XCTAssertEqual(sut.viewModel.currentValuaition, 589898.98815312)
     }
 
